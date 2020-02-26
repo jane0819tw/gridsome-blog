@@ -11,6 +11,8 @@ function addStyleResource(rule) {
 }
 
 module.exports = {
+  // 預防build的時候 window is not defined
+  configureWebpack: { output: { globalObject: 'this' } },
   // use sass --------------
   chainWebpack(config) {
     // Load variables for all vue-files
@@ -33,7 +35,7 @@ module.exports = {
 
 
     // 這裡能不能自己改:year? 因為路徑會和 WordPressCategory相同格式，第二個是動態參數 他會以為是要去第一個模板page
-    WordPressPost: '/thailand/:year/:title_raw', // :slug//adds route for "post" post type (Optional) :year/:month/:day 
+    WordPressPost: '/thailand/:year/:slug', // :title_raw //adds route for "post" post type (Optional) :year/:month/:day 
 
     WordPressCategory: '/thailand/:title', // adds route for "category" post type (Optional)
 

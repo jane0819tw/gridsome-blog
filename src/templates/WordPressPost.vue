@@ -7,6 +7,7 @@
       div(v-html="$page.wordPressPost.content")
       CategoryInPost(:tags="$page.wordPressPost.categories")
       //- add comments 
+      //- ClientOnly
       vue-disqus(shortname="jane-blog" :identifier="$page.wordPressPost.title")
 </template>
 

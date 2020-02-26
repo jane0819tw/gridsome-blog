@@ -75,9 +75,9 @@ import Post from "~/components/Post.vue";
 
 // skrollr.init();
 
-require(["skrollr"], function(skrollr) {
-  var s = skrollr.init();
-});
+// require(["skrollr"], function(skrollr) {
+//   var s = skrollr.init();
+// });
 
 // npm install --save skrollr
 // require(["skrollr"], function(skrollr) {

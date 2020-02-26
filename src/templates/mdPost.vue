@@ -4,6 +4,7 @@
       time  更新日期: {{formatDate($page.mdPost.date)}}
     .markdown-body(v-html="$page.mdPost.content")
     CategoryInPost(:tags="$page.mdPost.tags")
+    //- ClientOnly
     vue-disqus(shortname="jane-blog" :identifier="$page.mdPost.title")
 </template>
 <page-query>

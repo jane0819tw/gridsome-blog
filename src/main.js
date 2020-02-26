@@ -11,7 +11,7 @@ import DefaultLayout from '~/layouts/Default.vue'
 import PostLayout from '~/layouts/PostLayout.vue'
 // 直接這樣import 進來 用下面head.link.push會有問題
 //import '~/assets/css/style.css'
-
+// import workerGlobals from '~/assets/js/workerGlobals.js'
 // 加入mixins
 import { formatMixin } from "~/mixins/formatMixin.js";
 
@@ -36,10 +36,11 @@ export default function (Vue, { head }) {
   })
 
   // 加入額外的套件
-  head.script.push({
-    src: 'https://cdnjs.cloudflare.com/ajax/libs/skrollr/0.6.30/skrollr.min.js',
-    body: true
-  })
+  // head.script.push({
+  //   src: 'https://cdnjs.cloudflare.com/ajax/libs/skrollr/0.6.30/skrollr.min.js',
+  //   body: true
+  // })
+
   Vue.component('font-awesome', FontAwesomeIcon)
 
 

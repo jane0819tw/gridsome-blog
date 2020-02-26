@@ -1,4 +1,7 @@
 export const formatMixin = {
+  mounted() {
+    this.window = window
+  },
   methods: {
     //- date format
     getDate(dateStr) {
