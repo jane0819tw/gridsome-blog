@@ -1,0 +1,59 @@
+$color_light_gray: #F9F9F9
+$color_dark_gray: #eee
+$color_green: #627A59
+$color_word: #707070
+$color_gray: #d1caca
+
+@mixin size($w,$h:$w)
+  width: $w
+  height: $h
+
+@mixin bgCenter($url)
+  background-image: url($url)
+  background-size: cover
+  background-position: center
+
+@mixin flexCenter
+  display: flex
+  justify-content: center
+  align-items: center
+
+@mixin posCenter
+  top: 50%
+  left: 50%
+  transform: translate(-50%,-50%)
+  position: absolute
+
+*
+  word-break: break-all
+  transition: 0.4s
+
+body 
+  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif
+  margin: 0
+  height: auto !important
+
+main
+  padding: 0 40px 
+  max-width: 1000px
+  margin: 0 auto
+
+h1 
+  text-align: center
+
+ul
+  margin: 0
+  list-style: none
+  padding: 0
+
+a 
+  text-decoration: none
+
+
+
+img 
+  max-width: 100%
+
+@media screen and (min-width: 768px)
+  main
+    padding: 0 100px
