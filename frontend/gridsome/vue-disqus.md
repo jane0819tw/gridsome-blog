@@ -2,7 +2,7 @@
 tags: ['gridsome','gridsome disqus','comments']
 date: 2020-02-20
 description: 如果想要在網站加上留言的功能，可以使用這個套件isqus。disqus是一個網站的外部服務，可以塗供給你留言的客製化元件。
-cover_image: ../img/disqus.png
+cover_image: ../img/disqus.jpg
 ---
 # 加上留言套件vue-disqus
 [gridsome disqus 留言套件 文件](https://gridsome.org/docs/guide-comments/#disqus)

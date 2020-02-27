@@ -92,9 +92,10 @@ export default {
   .tags
     margin: 1em 0 .5em 0
     +flexCenter
+    flex-wrap: wrap
 
     span
-      margin-left: 3px
+      margin: 0 0 .5em .5em
       padding: 5px
       border: solid 1px 
       color: $color_green
@@ -114,6 +115,7 @@ export default {
     width: 30%
     letter-spacing: .5em
     text-align: center
+    white-space: nowrap
     &:hover
       background-color: #000
       color: #fff
