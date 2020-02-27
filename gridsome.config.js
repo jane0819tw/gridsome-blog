@@ -81,6 +81,11 @@ module.exports = {
         username: 'thaiskrthai' // Instagram username
         // typeName: 'InstagramPhoto' // The GraphQL type you want the photos to be added under. Defaults to InstagramPhoto
       }
+    }, {
+      use: '@gridsome/plugin-google-analytics',
+      options: {
+        id: 'UA-159204638-1'
+      }
     }
   ], transformers: {
     remark: {
@@ -88,3 +93,7 @@ module.exports = {
     }
   }
 }
+
+
+
+
