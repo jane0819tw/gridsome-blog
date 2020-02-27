@@ -3,8 +3,6 @@ tags: ['gridsome']
 date: 2020-02-13
 description: collections 是一群nodes節點的集合，很適合用來製作<code>posts</code>,<code>tags</code>,<code>products</code>列表的資料。可以讓graphQL裡面新增集合節點。有兩種方法可以新增collections：<code>source plugin</code>以及<code>data store API</code>。
 cover_image: ../img/gridsome.png
-auther: jane
-a: rr
 ---
 # gridsome collections 介紹
 collections 是一群nodes節點的集合，很適合用來製作<code>posts</code>,<code>tags</code>,<code>products</code>列表的資料。可以讓graphQL裡面新增集合節點。有兩種方法可以新增collections：<code>source plugin</code>以及<code>data store API</code>。

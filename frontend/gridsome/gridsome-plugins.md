@@ -152,3 +152,45 @@ query {
 }
 ```
 在template底下新增和 <code>typeName</code> 相同的.vue檔案。
+
+
+## gridsome fontawesome
+[gridsome fontawesome](https://gridsome.org/docs/assets-svg/)
+[vue fontawesome](https://github.com/FortAwesome/vue-fontawesome#using-regular-icons)
+Vue提供了一個套件，讓你不需要一次載入所有的樣式，只載入你會用到的icon樣式。
+### 安裝
+安裝
+* <code>@fortawesome/vue-fontawesome</code>
+* <code>@fortawesome/fontawesome-svg-core</code>
+* <code>@fortawesome/free-brands-svg-icons</code>。
+```typescript=
+npm i -D @fortawesome/{vue-fontawesome,fontawesome-svg-core,free-brands-svg-icons}
+```
+這種寫法表示一次裝好幾個套件，等同於下面的寫法：
+```typescript=
+npm i -D @fortawesome/vue-fontawesome @fortawesome/fontawesome-svg-core @fortawesome/free-brands-svg-icons
+```
+### 匯入套件
+接下來需要在項目中打開（或創建）src/main.js文件並添加以下內容，並將該component新增至全域，在各頁面可以直接使用。
+要使用的icon從<code>@fortawesome/free-brands-svg-icons</code>載入，
+<code>faGithub</code>表示<code>fa-github</code>的圖示，需要各自引入，才可以在元件中做使用。
+```typescript=
+// src/main.js
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
+import { config, library } from '@fortawesome/fontawesome-svg-core'
+import { faGithub, faTwitter } from '@fortawesome/free-brands-svg-icons'
+import '@fortawesome/fontawesome-svg-core/styles.css'
+
+config.autoAddCss = false;
+library.add(faGithub, faTwitter)
+
+export default function (Vue) {
+  Vue.component('font-awesome', FontAwesomeIcon)
+}
+```
+### 直接使用
+在各個頁面就可以謢經用這個方式使用font awesome，陣列裡的值為class的名稱。
+```typescript=
+<font-awesome :icon="['fab', 'github']"/>
+<font-awesome :icon="['fab', 'twitter']"/>
+```
