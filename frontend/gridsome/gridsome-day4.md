@@ -1,7 +1,7 @@
 ---
 tags: ['gridsome','templates','day4','g-image']
 date: 2020-02-25
-description: 載入資料夾的md文章,g-image,templates
+description: 載入資料夾的md文章,g-image,templates。
 cover_image: ../img/gridsome.png
 ---
 #  (實戰) gridsome 建部落格day4-- 載入資料夾的md文章,g-image,templates

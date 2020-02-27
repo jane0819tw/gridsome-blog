@@ -1,7 +1,7 @@
 ---
 tags: ['gridsome','blog','day3','g-link']
 date: 2020-02-24
-description: 上一次提及的這個架構，先拆成一步一步來完成吧！
+description: 上一次提及的這個架構，先拆成一步一步來完成吧。
 cover_image: ../img/structure.png
 ---
 # (實戰) gridsome 建部落格day3-- g-link

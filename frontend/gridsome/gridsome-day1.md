@@ -1,7 +1,7 @@
 ---
 tags: ['gridsome','blog','day1']
 date: 2020-02-23
-description: 這裡要來帶大家利用我學習gridsome的技能來實作一個部落格網站，目前學習gridsome的資源沒有很多，可以參考以下資源...
+description: 這裡要來帶大家利用我學習gridsome的技能來實作一個部落格網站，目前學習gridsome的資源沒有很多，可以參考以下資源...。
 cover_image: ../img/gridsome.png
 ---
 

@@ -1,8 +1,7 @@
 ---
 tags: ['gridsome','global css','style-resources-loader']
 date: 2020-02-21
-description: 當我們在開發的時候，總是會需要一些共通的設定來避免程式碼重複，
-我們可以在每一個.vue檔裡面import進來，但是會顯得很累贅，所以接下來要教大家幾種全域引入的方式。
+description: 當我們在開發的時候，總是會需要一些共通的設定來避免程式碼重複，我們可以在每一個.vue檔裡面import進來，但是會顯得很累贅，所以接下來要教大家幾種全域引入的方式。
 cover_image: ../img/gridsome.png
 ---
 

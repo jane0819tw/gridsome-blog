@@ -1,8 +1,7 @@
 ---
 tags: ['gridsome','day7','pager']
 date: 2020-02-27
-description: 當文章太多滑不完的時候，我們會希望有page分頁的功能，gridsome提供了一個很好的套件叫做pager供大家使用，接下來就來教大家這個功能吧！
-
+description: 當文章太多滑不完的時候，我們會希望有page分頁的功能，gridsome提供了一個很好的套件叫做pager供大家使用，接下來就來教大家這個功能吧。
 cover_image: ../img/gridsome.png
 ---
 #  (實戰) gridsome 建部落格day7-- 區域引入 pager 分頁功能

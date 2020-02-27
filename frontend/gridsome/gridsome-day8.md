@@ -1,7 +1,7 @@
 ---
 tags: ['gridsome','collections','day8','refs']
 date: 2020-02-27
-description: 還記得我們在mdPost的時候嗎？當我們在產生與該typeName相關schema的時候，我們還可以產生根據其他屬性的集合，我們稱為collection，會在該套件寫一個refs如下：
+description: 還記得我們在mdPost的時候嗎？當我們在產生與該typeName相關schema的時候，我們還可以產生根據其他屬性的集合，我們稱為collection，會在該套件寫一個refs如下。
 cover_image: ../img/gridsome.png
 ---
 # (實戰) gridsome 建部落格day8-- refs 建立新的collections
