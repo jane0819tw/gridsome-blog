@@ -37,8 +37,6 @@
           ul
             li(v-for="{node} in $static.allWordPressCategory.edges" v-if="node.count!=0")
               g-link(:to="node.path")  {{toChiCategory(node.title)}}
-        li
-          g-link(to="/about") 關於我
 
 
 
