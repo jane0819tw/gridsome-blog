@@ -38,7 +38,7 @@ Unknown argument \"date\" on field \"mdPost\" of type \"Query\". Did you mean \"
 [參考文章](https://blog.hinablue.me/2019-ithome-ironman-day-18/)
 當你在<code>gridsome develop</code>的時候，效果都正常，這個問題是當你在<code>gridsome build</code>的時候才會出現的問題，十分的惱人，錯誤訊息顯示**window is not defined**或是**document is not defined**，找了許多資料，才知道原來這是ssr的問題。
 ### SSR(server side rendering)是什麼
-意思是在伺服端先渲染的意思，像是vue或是react的前端框架，可以不用寫兩次程式碼。
+意思是在伺服端先渲染的意思，像是vue的nuxt或是react的next前端框架。
 * 好處
 可以自己控制想要渲染的部分。
 對seo較友善。
